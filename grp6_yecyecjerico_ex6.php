@@ -74,10 +74,7 @@ if (file_exists($filePath)) {
 </head>
 <body>
 
-<header>
-    <h1>Provide Your Information and Feedback</h1>
-    <p>Share your details and give us feedback about our website!</p>
-</header>
+<?php include 'header.php'; ?>
 
 <div class="container">
 
@@ -103,9 +100,6 @@ if (file_exists($filePath)) {
 
 </div>
 
-<footer>
-    <p>&copy; 2024 Group 6. All rights reserved.</p>
-    <p><a href="privacy-policy.html" class="footer-link">Privacy Policy</a> | <a href="terms-of-service.html" class="footer-link">Terms of Service</a></p>
-</footer>
+<?php include 'footer.php'; ?>
 </body>
 </html>
